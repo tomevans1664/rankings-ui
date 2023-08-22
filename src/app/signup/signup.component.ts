@@ -3,10 +3,10 @@ import { AuthService } from '../_services/auth.service';
 
 @Component({
   selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
+  templateUrl: './signup.component.html',
+  styleUrls: ['./signup.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class SignupComponent implements OnInit {
   form: any = {
     username: null,
     email: null,

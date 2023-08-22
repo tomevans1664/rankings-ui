@@ -4,10 +4,10 @@ import { StorageService } from '../_services/storage.service';
 
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  templateUrl: './signin.component.html',
+  styleUrls: ['./signin.component.css']
 })
-export class LoginComponent implements OnInit {
+export class SigninComponent implements OnInit {
   form: any = {
     username: null,
     password: null
